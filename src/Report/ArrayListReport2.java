@@ -16,7 +16,7 @@ public class ArrayListReport2 {
         String input;
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("이름을 입력하시오: ");
+            System.out.print("이름을 입력하시오: ");
             input = sc.next(); //문자열을 입력받는다.
             if (input.equals("0")) {
                 break;
